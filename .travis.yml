@@ -3,6 +3,6 @@ node_js: node
 deploy:
   provider: heroku
   api_key: b03bfb6d-c78a-4637-8e92-1197efb0810a
-  app: https://shielded-shore-58631.herokuapp.com/ 
+  app: https://git.heroku.com/shielded-shore-58631.git
   on:
     repo: mikeramz86/roomie-node-capstone
