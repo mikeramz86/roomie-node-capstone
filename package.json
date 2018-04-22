@@ -1,0 +1,30 @@
+{
+  "name": "roomie-node-capstone",
+  "version": "1.0.0",
+  "description": "node capstone ",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeramz86/roomie-node-capstone.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Michael Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeramz86/roomie-node-capstone/issues"
+  },
+  "homepage": "https://github.com/mikeramz86/roomie-node-capstone#readme"
+}
