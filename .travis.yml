@@ -1,8 +1,2 @@
 language: node_js
 node_js: node
-deploy:
-  provider: heroku
-  api_key: 
-  app:  shielded-shore-58631
-  on:
-    repo: mikeramz86/roomie-node-capstone
