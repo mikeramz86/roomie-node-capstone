@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XUCV7FDV6nr+XNcTY9fiQ9sMHcIVO9Po86YXzDyPmBj3NhYFCDjoXxASliSB3+4DU4UZRiLmqSjT+3mGyf+qFYk9nFoxoiwVjROtvVTOlzZRXaGi8s2ocldQV0mab/RPI9Ed615uzgp20Dwc5ul7yLfJt8e+GPgMHdIDWrNMGyFRYDvXTrHGm1vXB0ycrNsjwW8CTugrDmnOkBPKxA3oh2vf2zTZxbiUf4XCNvammabPUWFGNP0eOVcfjAQylFuErJqUdo/qviOgDx8pCXao1GRJ7OtZtmyeSCc25JSfXzm+p6XNKqi0eWul3AJEgJcOx3kgeIxHs+3MRhNODAQAmjTKzk439SHptNT8CyJJCXNGzcHNlRr1JbMwHp7E6NRMTm9t+/rpNkFvoMYdgoR7vVqVmD5cZ6Vzm3Wueyb9T36NXUQPFgaTNV+6xLTMZ3EsZOvQWxWpoGxbX411cwKXzEBiF9wSAZhB2uTpM8NLl8QyKuTf4sQmhgfmOEMoFsxlZgYiT6MvvLe9gdYX6tY2FOeRx1MUBV/vZLpBuadQwKjsBVNAbbtUCq5HNttMCO+cQeSbqzAVurxqfP0RgpZ+zyyHdr88xmyX68qNsSf48E3Rqtj3qN64BfBlZJq8CVur3dUzS9zsHyKnLF1ijB+FGnUWWUWB6tp1Il8yNHxWDBg=
+  app: https://agile-chamber-91824.herokuapp.com/ 
+  on:
+    repo: mikeramz86/roomie-node-capstone
